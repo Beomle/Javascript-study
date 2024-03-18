@@ -18,9 +18,11 @@
 
 	<script>
 
-		function handleClose() {
-			document.getElementById('alert').style.display = 'none';
-		}
+	
+			document.getElementById('alert').addEventListener('click',function() {
+			document.getElementById('alert').style.display = 'none'
+			});
+
 		function abc() {
 			document.getElementById('title').innerHTML = 'ID를 입력하세요';
 			document.getElementById('alert').style.display = 'block'
