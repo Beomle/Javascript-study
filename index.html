@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+	<link rel="stylesheet" href="main.css">
+</head>
+<body>
+
+<div class="alertbox" id="alert"> 
+	<p id="title">ID를 입력하세요.</p>
+	<button onclick="handleClose()">닫기</button>
+</div>
+
+	<button onclick="abc()">버튼1</button>
+	<button onclick="ab()">버튼2</button>
+
+	<script>
+
+		function handleClose() {
+			document.getElementById('alert').style.display = 'none';
+		}
+		function abc() {
+			document.getElementById('title').innerHTML = 'ID를 입력하세요';
+			document.getElementById('alert').style.display = 'block'
+		}
+		function ab() {
+			document.getElementById('title').innerHTML = '비밀번호를 입력하세요';
+			document.getElementById('alert').style.display = 'block'
+		}
+
+	</script>
+	
+</body>
+</html>
