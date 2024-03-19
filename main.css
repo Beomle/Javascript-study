@@ -1,15 +1,6 @@
-.alertbox {
-    background-color: skyblue;
-    padding: 20px;
-    color: white;
-    border-radius: 5px;
+.list-group {
     display: none;
 }
-.redbox {
-    width: 60ox;
-    height:25px;
-    background-color: brown;
-    padding: 20x;
-    color: white;
-    border-radius: 5px;
+.show {
+    display: block;
 }
